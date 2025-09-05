@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Real Estate Management Systems</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style>
+        .container {
+            padding-left: 50px;
+        }
+        /* .bg-info{
+            width:1720px;
+        } */
+        /* .col-md-10 offset{
+            margin: 0px;
+            background-color: #1ff;
+            height:800px;
+        } */
+    </style>
+</head>
+
+<body class="over">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <!-- <div class="navbar-brand">
+
+                    Real Estate Management Systems
+                </div> -->
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="owner/home/about">About</a></li>
+                    <li><a href="owner/login">Logout</a></li>
+                </ul>
+            </div>
+            <!-- <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul> -->
+            <!-- <table class="nav navbar-nav">
+                <tr>
+                    <td><a class="btn btn-primary" href="#">Home</a></td>
+                </tr>
+            </table> -->
+        </div>
+    </nav>
+    <div class="jumbotron">
+        <div class="contain text-center">
+            <!-- <img src="properties.png" alt="properties" width="1440px" height="300px"> -->
+            <h1>Pilla Pakodi</h1>
+            <p>Some text that represents "Pakodi"...</p>
+        </div>
+    </div>
+    <!-- Hero Section -->
+<div class="hero-section text-center py-5 mb-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <h1 class="display-4 fw-bold text-primary mb-4">
+                    <i class="fas fa-building me-3"></i>
+                    Premium Real Estate Management
+                </h1>
+                <p class="lead text-muted mb-4">
+                    Streamline your real estate operations with our comprehensive management system. 
+                    Manage properties, customers, transactions, and more with ease.
+                </p>
+                <div class="hero-stats row text-center">
+                    <div class="col-md-3 col-6 mb-3">
+                        <div class="stat-card bg-primary text-white p-3 rounded">
+                            <i class="fas fa-home fa-2x mb-2"></i>
+                            <h4 class="mb-0">500+</h4>
+                            <small>Properties</small>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6 mb-3">
+                        <div class="stat-card bg-success text-white p-3 rounded">
+                            <i class="fas fa-users fa-2x mb-2"></i>
+                            <h4 class="mb-0">1000+</h4>
+                            <small>Customers</small>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6 mb-3">
+                        <div class="stat-card bg-warning text-white p-3 rounded">
+                            <i class="fas fa-handshake fa-2x mb-2"></i>
+                            <h4 class="mb-0">250+</h4>
+                            <small>Transactions</small>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6 mb-3">
+                        <div class="stat-card bg-info text-white p-3 rounded">
+                            <i class="fas fa-star fa-2x mb-2"></i>
+                            <h4 class="mb-0">4.8</h4>
+                            <small>Rating</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Management Dashboard -->
+<div class="container">
+    <h2 class="text-center mb-5">
+        <i class="fas fa-tachometer-alt me-2"></i>
+        Management Dashboard
+    </h2>
+    
+    <div class="row g-4">
+        <!-- Customer Management -->
+        <div class="col-lg-4 col-md-6">
+            <div class="card h-100 management-card">
+                <div class="card-body text-center">
+                    <div class="icon-wrapper bg-primary text-white rounded-circle mx-auto mb-3">
+                        <i class="fas fa-users fa-2x"></i>
+                    </div>
+                    <h5 class="card-title">Customer Management</h5>
+                    <p class="card-text text-muted">
+                        Manage customer profiles, registrations, and interactions with comprehensive tools.
+                    </p>
+                    <a href="home/customerlist" class="btn btn-primary">
+                        <i class="fas fa-arrow-right me-2"></i>
+                        Manage Customers
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Property Management -->
+        <div class="col-lg-4 col-md-6">
+            <div class="card h-100 management-card">
+                <div class="card-body text-center">
+                    <div class="icon-wrapper bg-success text-white rounded-circle mx-auto mb-3">
+                        <i class="fas fa-home fa-2x"></i>
+                    </div>
+                    <h5 class="card-title">Property Management</h5>
+                    <p class="card-text text-muted">
+                        List, update, and manage property inventory with detailed specifications and photos.
+                    </p>
+                    <a href="home/propertylist" class="btn btn-success">
+                        <i class="fas fa-arrow-right me-2"></i>
+                        Manage Properties
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Registration Management -->
+        <div class="col-lg-4 col-md-6">
+            <div class="card h-100 management-card">
+                <div class="card-body text-center">
+                    <div class="icon-wrapper bg-warning text-white rounded-circle mx-auto mb-3">
+                        <i class="fas fa-clipboard-list fa-2x"></i>
+                    </div>
+                    <h5 class="card-title">Registration Management</h5>
+                    <p class="card-text text-muted">
+                        Track property registrations and manage the registration process efficiently.
+                    </p>
+                    <a href="home/registrationlist" class="btn btn-warning">
+                        <i class="fas fa-arrow-right me-2"></i>
+                        View Registrations
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Loan Management -->
+        <div class="col-lg-4 col-md-6">
+            <div class="card h-100 management-card">
+                <div class="card-body text-center">
+                    <div class="icon-wrapper bg-info text-white rounded-circle mx-auto mb-3">
+                        <i class="fas fa-money-bill-wave fa-2x"></i>
+                    </div>
+                    <h5 class="card-title">Loan Management</h5>
+                    <p class="card-text text-muted">
+                        Manage loan applications and track financing options for property purchases.
+                    </p>
+                    <a href="home/loanlist" class="btn btn-info">
+                        <i class="fas fa-arrow-right me-2"></i>
+                        Manage Loans
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Testimonial Management -->
+        <div class="col-lg-4 col-md-6">
+            <div class="card h-100 management-card">
+                <div class="card-body text-center">
+                    <div class="icon-wrapper bg-secondary text-white rounded-circle mx-auto mb-3">
+                        <i class="fas fa-star fa-2x"></i>
+                    </div>
+                    <h5 class="card-title">Testimonial Management</h5>
+                    <p class="card-text text-muted">
+                        Showcase customer testimonials and reviews to build trust and credibility.
+                    </p>
+                    <a href="home/testimoniallist" class="btn btn-secondary">
+                        <i class="fas fa-arrow-right me-2"></i>
+                        Manage Testimonials
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Transaction Management -->
+        <div class="col-lg-4 col-md-6">
+            <div class="card h-100 management-card">
+                <div class="card-body text-center">
+                    <div class="icon-wrapper bg-danger text-white rounded-circle mx-auto mb-3">
+                        <i class="fas fa-exchange-alt fa-2x"></i>
+                    </div>
+                    <h5 class="card-title">Transaction Management</h5>
+                    <p class="card-text text-muted">
+                        Track all financial transactions, payments, and property sales with detailed records.
+                    </p>
+                    <a href="home/transactionlist" class="btn btn-danger">
+                        <i class="fas fa-arrow-right me-2"></i>
+                        View Transactions
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cancellation Management -->
+        <div class="col-lg-4 col-md-6">
+            <div class="card h-100 management-card">
+                <div class="card-body text-center">
+                    <div class="icon-wrapper bg-dark text-white rounded-circle mx-auto mb-3">
+                        <i class="fas fa-times-circle fa-2x"></i>
+                    </div>
+                    <h5 class="card-title">Cancellation Management</h5>
+                    <p class="card-text text-muted">
+                        Handle property cancellations and refunds with proper documentation and tracking.
+                    </p>
+                    <a href="home/cancellationlist" class="btn btn-dark">
+                        <i class="fas fa-arrow-right me-2"></i>
+                        Manage Cancellations
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Quick Actions Section -->
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="mb-0">
+                        <i class="fas fa-bolt me-2"></i>
+                        Quick Actions
+                    </h5>
+                </div>
+                <div class="card-body">
+                    <div class="row g-3">
+                        <div class="col-md-3 col-6">
+                            <button class="btn btn-outline-primary w-100" data-bs-toggle="tooltip" title="Add new property">
+                                <i class="fas fa-plus me-2"></i>Add Property
+                            </button>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <button class="btn btn-outline-success w-100" data-bs-toggle="tooltip" title="Register new customer">
+                                <i class="fas fa-user-plus me-2"></i>Add Customer
+                            </button>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <button class="btn btn-outline-info w-100" data-bs-toggle="tooltip" title="Generate reports">
+                                <i class="fas fa-chart-bar me-2"></i>Generate Report
+                            </button>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <button class="btn btn-outline-warning w-100" data-bs-toggle="tooltip" title="View analytics">
+                                <i class="fas fa-analytics me-2"></i>Analytics
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .hero-section {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        border-radius: 20px;
+        margin-bottom: 2rem;
+    }
+    
+    .stat-card {
+        transition: transform 0.3s ease;
+    }
+    
+    .stat-card:hover {
+        transform: translateY(-5px);
+    }
+    
+    .management-card {
+        transition: all 0.3s ease;
+        border: none;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+    
+    .management-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+    }
+    
+    .icon-wrapper {
+        width: 80px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    
+    .btn {
+        border-radius: 10px;
+        font-weight: 600;
+        transition: all 0.3s ease;
+    }
+    
+    .btn:hover {
+        transform: translateY(-2px);
+    }
+    
+    .card-header {
+        border-radius: 10px 10px 0 0 !important;
+    }
+</style>
+</body>
+
+</html>
